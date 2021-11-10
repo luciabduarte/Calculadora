@@ -103,8 +103,12 @@ public class Calculadora {
         return resto;
     }
 
-    private void imprime() {
+    public void imprime() {
         System.out.printf("A: %d B: %d, Result: %.2f\n", this.a, this.b, this.result);
     }
 
 }
+
+// git add .
+// git commit -m "frase"
+// git push origin
